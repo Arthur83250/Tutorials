@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.grid > div{
+    background-color: grey;
+    border: solid 1px rgb(66, 65, 65);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.columns {
+    display: flex;
+    align-items: flex-start;
+}
+
+.columns img{
+    width: 100%;
+    height: auto;
+}

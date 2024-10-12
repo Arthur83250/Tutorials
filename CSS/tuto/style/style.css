@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(241, 240, 240);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'Roboto', sans-serif;
+}
+
+/* ----------- HEADER ----------- */
+
+.header{
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    color: wheat;
+    height: 300px;
+}
+
+.flex-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+.header-navbar a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header-navbar a:hover{
+    text-decoration: underline;
+}
+
+.header-navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-nav-item{
+    margin-right: 50px;
+}
+
+.header-img{
+    width: 100%;
+    height: auto;
+}
+
+/* ----------- MAIN ----------- */
+
+.main{
+    line-height: 1.4;
+    width: 60%;
+    margin: auto;
+}
+
+.main h2{
+    text-transform: uppercase;
+}
+
+.main p{
+    text-align: justify;
+    overflow-wrap: break-word;
+}
+
+.alignleft{
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright{
+    float: right;
+    margin-left: 15px;
+}
+
+/* .description p{
+
+} */
+
+hr{
+    clear: both;
+}
